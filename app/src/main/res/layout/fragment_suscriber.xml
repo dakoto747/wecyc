@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="dakoto.wecycle.Suscriber">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/suscriber_schedule_button"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/sched"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="185dp"
+        android:id="@+id/suscriber_history_button"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/hist"
+        android:layout_below="@+id/suscriber_schedule_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

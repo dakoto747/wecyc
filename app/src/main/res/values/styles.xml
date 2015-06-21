@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+            <item name="colorPrimary">#9b59b6</item>
+            <item name="android:icon">@drawable/wecyclers</item>
+            <item name="android:displayOptions">useLogo</item>
+    </style>
+
+</resources>
